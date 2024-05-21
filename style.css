@@ -1,0 +1,110 @@
+*{
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+main #countdown{
+    font-family: sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  main #countdown span {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffef0f;
+}
+
+header img {
+    height: 150px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffef0f;
+}
+
+main > p{
+    background-color: white;
+    height: 40px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.label {
+    font-size: 0.8em;
+    color: dimgray;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+marquee span{
+    color: red;
+    font-weight: bolder;
+}
