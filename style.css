@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffef0f;
+    background-color: #0f77ff;
 }
 
 header img {
@@ -58,7 +58,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffef0f;
+    background-color: #0f77ff;
 }
 
 main > p{
